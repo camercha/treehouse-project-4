@@ -402,7 +402,7 @@ a {
 .default:hover {
   background-color: #9cecfd;
   transition-timing-function: ease-in;
-  transition: 0.8s;
+  transition: 0.7s;
 }
 
 .error {
@@ -411,18 +411,38 @@ a {
 
 .error:hover {
   background-color: #f1b5b8;
+  transition-timing-function: ease-in;
+  transition: 0.7s;
 }
 
 .info {
   background-color: #927bc1;
 }
 
+.info:hover {
+  background-color: #bdafd9;
+  transition-timing-function: ease-in;
+  transition: 0.7s;
+}
+
 .success {
   background-color: #63cc82;
 }
 
+.success:hover {
+  background-color: #9ddfb0;
+  transition-timing-function: ease-in;
+  transition: 0.7s;
+}
+
 .warning {
   background-color: #fd7856;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
+  transition-timing-function: ease-in;
+  transition: 0.7s;
 }
 
 /* ============================================= */

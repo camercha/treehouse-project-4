@@ -22,7 +22,7 @@
   .default:hover{
     background-color: lighten($linkcolor, 15%);
     transition-timing-function: ease-in;
-    transition: 0.8s;
+    transition: 0.7s;
   }
   
   .error {
@@ -31,6 +31,8 @@
 
   .error:hover{
     background-color: lighten(#e4757a, 15%);
+    transition-timing-function: ease-in;
+    transition: 0.7s;
   }
 
 
@@ -40,11 +42,34 @@
   .info {
     background-color: #927bc1;
   }
+
+  .info:hover{
+    background-color: lighten(#927bc1, 15%);
+    transition-timing-function: ease-in;
+    transition: 0.7s;
+  }
   
   .success {
     background-color: #63cc82;
   }
+
+
+  .success:hover{
+    background-color: lighten(#63cc82, 15%);
+    transition-timing-function: ease-in;
+    transition: 0.7s;
+  }
+
+
   
   .warning {
     background-color: #fd7856;
+  }
+
+
+
+  .warning:hover{
+    background-color: lighten(#fd7856, 15%);
+    transition-timing-function: ease-in;
+    transition: 0.7s;
   }
