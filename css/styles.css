@@ -673,6 +673,16 @@ a {
     margin-right: initial;
   }
 }
+@media (max-width: 767px) {
+  .col-9 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+}
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
@@ -680,7 +690,6 @@ a {
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
-  flex-direction: row;
 }
 .nav-link {
   text-align: center;

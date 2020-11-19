@@ -104,4 +104,18 @@
     
     }
 
+
+    @media (max-width:767px){
+
+.col-9{
+  flex-direction: column;
+  display: flex;
+}
+.nav{
+  flex-direction: column;
+ 
+}
+}
+    
+
     
